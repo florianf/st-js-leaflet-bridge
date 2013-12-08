@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+        <modelVersion>4.0.0</modelVersion>
+
+        <groupId>org.st-js.bridge</groupId>
+        <artifactId>leaflet</artifactId>
+        <packaging>jar</packaging>
+        <version>0.1-SNAPSHOT</version>
+        <name>Strongly-typed Javascript:Bridge to Leaflet Maps JavaScript Library</name>
+
+        <parent>
+                <groupId>org.st-js.bridge</groupId>
+                <artifactId>parent-pom</artifactId>
+                <version>1.0.1-SNAPSHOT</version>
+        </parent>
+ 
+
+        <properties>
+                <st-js.version>2.1.0-SNAPSHOT</st-js.version>
+        </properties>
+
+        <dependencies>
+                <dependency>
+                        <groupId>org.st-js</groupId>
+                        <artifactId>shared</artifactId>
+                        <version>${st-js.version}</version>
+                </dependency>
+                <dependency>
+                        <groupId>org.st-js.bridge</groupId>
+                        <artifactId>html</artifactId>
+                        <version>5.0.bv0</version>
+                </dependency>
+        </dependencies>
+
+        
+
+        <scm>
+          <connection>scm:git:https://github.com/st-js/html-bridge.git</connection>
+          <developerConnection>scm:git:https://github.com/st-js/html-bridge.git</developerConnection>
+          <url>scm:git:https://github.com/st-js/html-bridge</url>
+          <tag>HEAD</tag>
+        </scm>
+</project>
