@@ -7,7 +7,7 @@ import org.stjs.javascript.dom.DOMEvent;
 @STJSBridge()
 @SyntheticType
 public class MouseEvent extends Event {
-	public LatLng latLng;
+	public LatLng latlng;
 	public Point layerPoint;
 	public Point containerPoint;
 	public DOMEvent originalEvent;
