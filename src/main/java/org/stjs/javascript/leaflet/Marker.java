@@ -45,6 +45,8 @@ public class Marker extends ILayer{
 
 	public native Marker unbindPopup();
 	
+	public native Marker openPopup();
+	
 	public native Marker openPopup(LatLng latLng);
 	
 	public native Marker closePopup();

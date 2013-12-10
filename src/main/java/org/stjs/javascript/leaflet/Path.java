@@ -23,6 +23,8 @@ public abstract class Path extends EventEmitter {
 	
 	public native Path unbindPopup();
 	
+	public native Path openPopup();
+	
 	public native Path openPopup(LatLng latLng);
 	
 	public native Path closePopup();

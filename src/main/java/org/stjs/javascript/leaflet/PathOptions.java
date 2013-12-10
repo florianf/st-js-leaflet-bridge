@@ -5,7 +5,7 @@ import org.stjs.javascript.annotation.SyntheticType;
 
 @STJSBridge
 @SyntheticType
-public abstract class PathOptions {
+public class PathOptions {
 	public boolean stroke;
 	public String color;
 	public int weight;
