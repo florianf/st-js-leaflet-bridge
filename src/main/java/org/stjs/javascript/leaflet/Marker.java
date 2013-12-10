@@ -5,18 +5,14 @@ import org.stjs.javascript.annotation.STJSBridge;
 
 @STJSBridge()
 @Namespace(LeafletNamespace.Leaflet)
-public class LatLng {
-	public double lat;
-	public double lng;
-	public double altitude;
-	
-	public LatLng(double lat, double lng, double altitude) {
+public class Marker extends ILayer{
+	public Marker(LatLng latLng) {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public LatLng(double lat, double lng) {
+	public Marker(LatLng latLng, MarkerOptions options) {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public native double distanceTo(LatLng latLng);
+	
 }

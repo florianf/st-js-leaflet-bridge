@@ -6,7 +6,6 @@ import org.stjs.javascript.annotation.STJSBridge;
 import org.stjs.javascript.annotation.SyntheticType;
 
 @STJSBridge()
-@Namespace("L")
 @SyntheticType
 public class MapOptions {
 	//Map state options
@@ -30,25 +29,4 @@ public class MapOptions {
 	public boolean worldCopyJump;
 	public boolean closePopupOnClick;
 	public boolean bounceAtZoomLimits;
-	
-	//keyboard
-	public boolean keyboard;
-	public int keyboardPanOffset;
-	public int keyboardZoomOffset;
-	
-	//Panning Inertia Options
-	public boolean inertia;
-	public int inertiaDeceleration;
-	public int inertiaMaxSpeed;
-	public int inertiaThreshold;
-	
-	//Control options
-	public boolean zoomControl;
-	public boolean attributionControl;
-	
-	//Animation options
-	public boolean fadeAnimation;
-	public boolean zoomAnimation;
-	public int zoomAnimationThreshold;
-	public boolean markerZoomAnimation;
 }

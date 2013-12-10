@@ -1,10 +1,10 @@
-package org.stjs.javascript.leaflet;
+package org.stjs.javascript.leaflet.control;
 
 import org.stjs.javascript.annotation.STJSBridge;
 import org.stjs.javascript.annotation.SyntheticType;
 
 @STJSBridge()
 @SyntheticType
-public class LayerEvent extends Event {
-	public ILayer layer;
+public class AttributionOptions extends ControlOptions {
+	public String prefix;
 }

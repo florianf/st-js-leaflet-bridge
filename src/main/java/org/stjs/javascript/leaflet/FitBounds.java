@@ -1,11 +1,13 @@
 package org.stjs.javascript.leaflet;
 
-import org.stjs.javascript.annotation.Namespace;
 import org.stjs.javascript.annotation.STJSBridge;
 import org.stjs.javascript.annotation.SyntheticType;
 
-@STJSBridge()
+@STJSBridge
 @SyntheticType
-public abstract class ICRS {
-	public abstract Point latLngToPoint(LatLng latlng, int zoom); 
+public class FitBounds {
+	public Point paddingTopLeft;
+	public Point paddingBottomRight;
+	public Point padding;
+	public int maxZoom;
 }

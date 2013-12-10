@@ -6,6 +6,11 @@ import org.stjs.javascript.annotation.SyntheticType;
 
 @STJSBridge()
 @SyntheticType
-public abstract class ICRS {
-	public abstract Point latLngToPoint(LatLng latlng, int zoom); 
+public class LocateOptions {
+	public boolean watch;
+	public boolean setView;
+	public int maxZoom;
+	public int timeout;
+	public int maximumAge;
+	public boolean enableHighAccuracy;
 }

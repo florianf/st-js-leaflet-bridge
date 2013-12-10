@@ -5,7 +5,6 @@ import org.stjs.javascript.annotation.STJSBridge;
 import org.stjs.javascript.annotation.SyntheticType;
 
 @STJSBridge()
-@Namespace("L")
 @SyntheticType
 public class PanOptions {
 	public boolean animate;
