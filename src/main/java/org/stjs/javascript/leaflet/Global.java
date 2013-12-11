@@ -6,7 +6,7 @@ import org.stjs.javascript.annotation.STJSBridge;
 @STJSBridge()
 @GlobalScope
 public class Global {
-	public boolean L_PREFER_CANVAS;
-	public boolean L_NO_TOUCH;
-	public boolean L_DISABLE_3D;
+	public static boolean L_PREFER_CANVAS;
+	public static boolean L_NO_TOUCH;
+	public static boolean L_DISABLE_3D;
 }
