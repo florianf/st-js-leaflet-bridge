@@ -29,6 +29,8 @@ public class Map extends EventEmitter {
 	public native Map zoomOut(int delta);
 	public native Map zoomOut(int delta, ZoomOptions options);
 	
+	public native Map setZoom(int zoom);
+	
 	public native Map setZoomAround(LatLng latLng, int zoom);
 	public native Map setZoomAround(LatLng latLng, int zoom, ZoomOptions options);
 	
@@ -44,6 +46,8 @@ public class Map extends EventEmitter {
 	public native Map panBy(Point point);
 	public native Map panBy(Point point, PanOptions options);
 	
+	public native Map invalidateSize();
+	public native Map invalidateSize(boolean animate);
 	public native Map invalidateSize(ZoomPanOptions options);
 	
 	public native Map setMaxBounds(LatLngBounds bounds);
@@ -64,8 +68,8 @@ public class Map extends EventEmitter {
 	
 	public native LatLngBounds getBounds();
 	
-	public native LatLngBounds getBoundsZoom(LatLngBounds bounds);
-	public native LatLngBounds getBoundsZoom(LatLngBounds bounds, boolean inside);
+	public native int getBoundsZoom(LatLngBounds bounds);
+	public native int getBoundsZoom(LatLngBounds bounds, boolean inside);
 	
 	public native Point getSize();
 	

@@ -5,7 +5,7 @@ import org.stjs.javascript.annotation.STJSBridge;
 
 @STJSBridge()
 @Namespace(LeafletNamespace.Leaflet)
-public class Icon {
+public class Icon implements IIcon {
 	public Icon(IconOptions options) {
 		
 	}

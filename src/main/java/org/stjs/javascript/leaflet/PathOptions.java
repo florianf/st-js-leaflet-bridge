@@ -20,4 +20,6 @@ public class PathOptions {
 	public String pointerEvents;
 	public String className;
 	public int zIndex;
+	public double smoothFactor;
+	public int radius;
 }

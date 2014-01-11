@@ -7,12 +7,14 @@ import org.stjs.javascript.annotation.STJSBridge;
 @STJSBridge()
 @Namespace(LeafletNamespace.Leaflet)
 public class Polygon extends Polyline {
-
-	public Polygon(Array<LatLng> latLngs) {
+	
+	public Polygon(Array<Array<LatLng>> latLngs) {
 		super(null);
 	}
 
-	public Polygon(Array<LatLng> latLngs, PolylineOptions options) {
+	public Polygon(Array<Array<LatLng>> latLngs, PathOptions options) {
 		super(null);
 	}
+	
+	
 }
