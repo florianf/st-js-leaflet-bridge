@@ -5,7 +5,7 @@
         <groupId>org.st-js.bridge</groupId>
         <artifactId>leaflet</artifactId>
         <packaging>jar</packaging>
-        <version>0.7.1.bv0</version>
+        <version>0.7.1.bv1-SNAPSHOT</version>
         <name>Strongly-typed Javascript:Bridge to Leaflet Maps JavaScript Library</name>
 
         <parent>
