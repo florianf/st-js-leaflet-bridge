@@ -19,4 +19,5 @@ public class PathOptions {
 	public boolean clickable;
 	public String pointerEvents;
 	public String className;
+	public int zIndex;
 }
